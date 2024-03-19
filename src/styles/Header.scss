@@ -1,0 +1,19 @@
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  .headerInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    color: #1a73e8ff;
+    font-size: 1.5rem;
+  }
+  nav {
+    ul {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}
