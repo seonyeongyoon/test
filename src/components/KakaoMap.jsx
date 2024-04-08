@@ -1,5 +1,5 @@
 /* global kakao */
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import useCurrentLocation from './../hooks/useCurrentLocation';
 
 const { kakao } = window;
@@ -40,7 +40,7 @@ const KakaoMap = ({data}) => {
         currentInfowindow.current = infowindow;
       });
     });
-  },[location, data]);
+  },[location, data, currentLat, currentLon]);
   
 
   return (

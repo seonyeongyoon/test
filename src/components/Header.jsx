@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./../styles/Header.scss";
 
@@ -7,7 +6,7 @@ const Header = () => {
     <header>
       <div className="headerInner container">
         <h1>
-          <a href="/">캣벨컴퍼니 개발과제</a>
+          <a href="/">실시간 교통정보</a>
         </h1>
         <nav>
           <ul>
