@@ -1,11 +1,10 @@
-## 📌 프로젝트 실행 방법
-    cd movie-app
+## 프로젝트 실행 방법
     npm i
     npm run dev
 
 -> http://localhost:3000 접속
 
-## 🛠 개발 환경
+## 개발 환경
 
 <div>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
